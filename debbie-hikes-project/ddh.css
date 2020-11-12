@@ -1,0 +1,165 @@
+header { 
+    background-color: #006666;
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 17px;
+    height: 150px;
+    margin-bottom: 0;
+}
+
+
+body { 
+    background-color: #33CCCC;
+    opacity: 0.9;
+    color: #000000;
+    font-family: Helvetica, Arial, sans-serif;
+    background-image: url(nada.jpg);
+    background-attachment: fixed;
+    text-align: left;
+}
+
+#wrapper { 
+    background-color: #FFFFFF;
+    width: 80%; 
+    margin-left: auto; 
+    margin-right: auto;
+    min-width: 1200px;
+    max-width: 1480px;
+}
+
+#IG {
+    text-align: right;
+    padding-top: 1em;
+    padding-right: 1em;
+}
+
+
+
+h1 {
+    padding-top: 60px;
+    padding-left: 3em;
+    text-align: left;
+}
+
+q {
+    font-size: small;
+    text-align: right;
+    margin-left: 740px;
+    padding-right: 1em;
+}
+
+#navbar {
+    width: 160px;
+    border-color: darkcyan;
+    padding: 1px 70px;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: darkcyan;
+}
+
+li a {
+    color: azure;
+    display: inline-block;
+    float: left;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+li a:hover {
+    color: #003333;
+}
+
+li a:visited {
+    color: #003333;
+}
+
+main {
+    padding-right: 2em;
+    padding-left: 2em;
+    margin-left: 10px;
+    padding-bottom: 50px;
+}
+
+h2 {
+    font-style: italic;
+}
+
+h3 {
+    margin-bottom: 50px;
+    font-style: italic;
+}
+
+#aboutme {
+    margin-top: 100px;
+    margin-bottom: 300px;
+    margin-right: 10px;
+}
+
+#myphoto {
+    float: left;
+    margin-right: 20px;
+}
+
+#meadowwide, #burnarea {
+    padding-left: 2em;
+}
+
+#cultus, #ackerlake {
+    padding-left: 17em;
+}
+
+#meadow, #hammockcuddle {
+    padding-left: 1em;
+    padding-right: 2em;
+}
+
+footer { 
+    background-color: #CCFFFF;
+    opacity: 0.9;
+    color: #003333;
+    font-size: .60em;
+    font-style: oblique;
+    text-align: center;
+    padding: 1em;
+}
+
+header, main, footer { 
+    display: block; 
+}
+
+form {
+    padding: 10px; 
+}
+
+label {
+    float: left;
+    width: 100px;
+    clear: left;
+    text-align: right;
+    padding-right: 9px;
+    margin-top: 6px;
+    margin-bottom: 4px;
+}
+
+#phoneMe, #emailMe {
+    margin-top: 1px;
+    margin-bottom: 30px;
+    display: inline-block;
+    margin-left: 6px;
+}
+
+input, textarea {
+    margin-top: 12px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+#mySubmit, #myReset {
+    display: inline-block;
+}
