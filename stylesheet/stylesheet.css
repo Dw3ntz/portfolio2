@@ -20,13 +20,21 @@ header a:link {
 header a:visited {
     color: #fff;}
 header a:hover {
-    color: #028D29;
+    color: #FC8573;
 }
 
 h1 {
+    color: #FFF;
+    transition: color 1s ease-out;
     font-family: 'Antic Slab', Times, serif;
     font-size: 40px;
 }
+
+h1:hover {
+    color: #FC8573;
+}
+
+
 
 nav {
     font-size: 20px;
@@ -34,15 +42,30 @@ nav {
 }
 
 #deb {
+    height: 400px;
+    width: 320px;
     padding-right: 120px;
     padding-bottom: 4rem;
     float: right;
-    
 }
 
 .fa-cat {
+    color: #FFF;
     font-size: 40px;
     padding: 10px;
+}
+
+img {
+    height: 60px;
+    width: 60px;
+}
+
+a {
+    transition: all .2s ease-in;
+}
+
+a:hover {
+    transform: scale(1.1);
 }
 
 section {
