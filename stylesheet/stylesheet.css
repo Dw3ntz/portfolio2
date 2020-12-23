@@ -107,3 +107,31 @@ footer {
     clear: both;
     font-style: italic;
 }
+
+
+
+
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    box-sizing: border-box;
+    display: block;
+    margin: 1rem;
+}
+input[type=submit] {
+    width: 25%;
+}
+label {
+    font-family: 'Antic Slab', Times, serif;
+    font-size: 15px;
+}
+input {
+    border-radius: 15px;
+}
+fieldset {
+    border: 1px dotted #fff; 
+}
+fieldset input {
+    display: inline;
+}
